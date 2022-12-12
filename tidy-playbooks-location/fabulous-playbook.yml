@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  tasks:
+  - name: Execute common
+    import_role:
+      name: common
+  - name: Execute awesome
+    import_role:
+      name: awesome

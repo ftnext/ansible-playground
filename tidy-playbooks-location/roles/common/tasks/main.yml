@@ -1,0 +1,4 @@
+---
+- name: common print
+  debug:
+    msg: "Common"

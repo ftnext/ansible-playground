@@ -1,0 +1,5 @@
+---
+- name: Template a file
+  template:
+    src: awesome.j2
+    dest: hoge.txt
