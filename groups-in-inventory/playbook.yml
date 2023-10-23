@@ -1,0 +1,8 @@
+- hosts: my_group
+  tasks:
+    - name: "Common variable"
+      debug:
+        msg: "{{ foo }}"
+    - name: "Each variable"
+      debug:
+        msg: "{{ spam }}"
